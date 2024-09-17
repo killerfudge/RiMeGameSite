@@ -73,8 +73,8 @@ if(selected)
 	_piece.Space = self; // Move the piece to the clicked on space
 	has_piece = true; // Mark the now filled space as occupied.
 	Piece = _piece;
-	_piece.x = self.x + 20;
-	_piece.y = self.y + 60;
+	_piece.x = self.x;
+	_piece.y = self.y;
 	for(var _space = 0; _space < array_length(_piece.spaces); _space++)
 	{
 		_piece.spaces[_space].selected = false;
