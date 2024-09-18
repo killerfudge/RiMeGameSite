@@ -1,1 +1,1 @@
-global.text = ""
+global.selection = ""

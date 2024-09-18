@@ -1,9 +1,18 @@
-if (text == "Run")
+// Selection on the start menu to start new game
+if (text == "New Game")
 {
-	global.text = "You ran"
+	global.selection = "New Game"
+	room_goto_next()
 }
-else if (text == "Walk")
+// Selection in the 'Crash' room at the start of the game which wil set starting position
+else if (text == "Escape through the front window")
 {
-	global.text = "You walked"
+	global.selection = "Front Window"
+	room_goto(1)
 }
-room_goto_next()
+// Selection in the 'Crash' room at the start of the game which wil set starting position
+else if (text == "Escape through the back emergency door")
+{
+	global.selection = "Back Door"
+	room_goto(1)
+}
