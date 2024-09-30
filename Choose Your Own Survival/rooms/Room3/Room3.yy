@@ -17,8 +17,8 @@
   ],
   "name":"Room3",
   "parent":{
-    "name":"Choose Your Own Survival",
-    "path":"Choose Your Own Survival.yyp",
+    "name":"Rooms",
+    "path":"folders/Scripts/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
