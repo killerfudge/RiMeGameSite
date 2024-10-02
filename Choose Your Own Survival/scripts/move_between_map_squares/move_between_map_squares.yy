@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"map_square_movement_buttons",
+  "%Name":"move_between_map_squares",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"map_square_movement_buttons",
+  "name":"move_between_map_squares",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

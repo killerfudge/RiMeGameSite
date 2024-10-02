@@ -9,45 +9,29 @@ if (index == pages)
 	// The first choice in the game
 	if (global.selection == "New Game")
 	{
-		var _front_window = instance_create_layer(_horizontal, _top_vertical, "Instances", obj_button);
-		_front_window.text = "Escape through the front window"
-		var _back_exit = instance_create_layer(_horizontal, _second_vertical, "Instances", obj_button);
-		_back_exit.text = "Escape through the back emergency door"
+		create_button(1, "Escape through the front window")
+		create_button(2, "Escape through the back emergency door")
 	}
 	// Skipping what will be story after escaping the back of the bus
 	if (global.selection == "Back Door")
 	{
-		var _button = instance_create_layer(_horizontal, _top_vertical, "Instances", obj_button);
-		_button.text = "Skip to move"
+		create_button(1, "Skip to move")
 	}
-	// Entering a map square from a different one
+	// Entering a map square
 	if (global.selection == "Enter map square")
 	{
 		// Determine new map square
 		if (global.player_position == "A10")
 		{
-			var _west = instance_create_layer(_horizontal, _top_vertical, "Instances", obj_button);
-			_west.text = "Go west"
-			var _south = instance_create_layer(_horizontal, _second_vertical, "Instances", obj_button);
-			_south.text = "Go south"
+			move_between_map_squares(2, false, true, true, false)
 		}
 		else if (global.player_position == "A9")
 		{
-			var _west = instance_create_layer(_horizontal, _top_vertical, "Instances", obj_button);
-			_west.text = "Go west"
-			var _south = instance_create_layer(_horizontal, _second_vertical, "Instances", obj_button);
-			_south.text = "Go south"
-			var _east = instance_create_layer(_horizontal, _third_vertical, "Instances", obj_button);
-			_east.text = "Go east"
+			move_between_map_squares(3, false, true, true, true)
 		}
 		else if (global.player_position == "B10")
 		{
-			var _north = instance_create_layer(_horizontal, _top_vertical, "Instances", obj_button);
-			_north.text = "Go north"
-			var _west = instance_create_layer(_horizontal, _second_vertical, "Instances", obj_button);
-			_west.text = "Go west"
-			var _south = instance_create_layer(_horizontal, _third_vertical, "Instances", obj_button);
-			_south.text = "Go south"
+			move_between_map_squares(3, true, true, true, false)
 		}
 	}
 }
