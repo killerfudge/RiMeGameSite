@@ -24,20 +24,181 @@ else if (global.selection == "Back Door")
 else if (global.selection == "Enter map square")
 {
 	// Determine the square
-	if (global.player_position == "A10")
+	if (global.player_position == "A4")
 	{
 		pages = 1
-		room_text[0] = "This is where you landed after escaping out the back of the bus."
+		room_text[0] = "Map square A4\nHas medicinal herbs"
+	}
+	else if (global.player_position == "A5")
+	{
+		pages = 1
+		room_text[0] = "Map square A5\nHas medicinal herbs"
+	}
+	else if (global.player_position == "A8")
+	{
+		pages = 1
+		room_text[0] = "Map square A8"
 	}
 	else if (global.player_position == "A9")
 	{
 		pages = 1
 		room_text[0] = "Hello new area. \nPick a new direction to move."
 	}
+	else if (global.player_position == "A10")
+	{
+		pages = 1
+		room_text[0] = "This is where you landed after escaping out the back of the bus."
+	}
+	else if (global.player_position == "B4")
+	{
+		pages = 1
+		room_text[0] = "Map square B4\nHas medicinal herbs"
+	}
+	else if (global.player_position == "B5")
+	{
+		pages = 1
+		room_text[0] = "Map square B5\nHas medicinal herbs"
+	}
+	else if (global.player_position == "B6")
+	{
+		pages = 1
+		room_text[0] = "Map square B6"
+	}
+	else if (global.player_position == "B8")
+	{
+		pages = 1
+		room_text[0] = "Map square B8"
+	}
+	else if (global.player_position == "B9")
+	{
+		pages = 1
+		room_text[0] = "Map square B9"
+	}
 	else if (global.player_position == "B10")
 	{
 		pages = 1
 		room_text[0] = "Position B10"
+	}
+	else if (global.player_position == "C6")
+	{
+		pages = 1
+		room_text[0] = "Map square C6"
+	}
+	else if (global.player_position == "C8")
+	{
+		pages = 1
+		room_text[0] = "Map square C8"
+	}
+	else if (global.player_position == "C9")
+	{
+		pages = 1
+		room_text[0] = "Map square C9"
+	}
+	else if (global.player_position == "C10")
+	{
+		pages = 1
+		room_text[0] = "Position C10"
+	}
+	else if (global.player_position == "D2")
+	{
+		pages = 1
+		room_text[0] = "Map square D2"
+	}
+	else if (global.player_position == "D3")
+	{
+		pages = 1
+		room_text[0] = "Map square D3"
+	}
+	else if (global.player_position == "D4")
+	{
+		pages = 1
+		room_text[0] = "Position D4"
+	}
+	else if (global.player_position == "D6")
+	{
+		pages = 1
+		room_text[0] = "Position D6"
+	}
+	else if (global.player_position == "D8")
+	{
+		pages = 1
+		room_text[0] = "Position D8"
+	}
+	else if (global.player_position == "D9")
+	{
+		pages = 1
+		room_text[0] = "Position D9"
+	}
+	else if (global.player_position == "E2")
+	{
+		pages = 1
+		room_text[0] = "Position E2"
+	}
+	else if (global.player_position == "E3")
+	{
+		pages = 1
+		room_text[0] = "Map square E3"
+	}
+	else if (global.player_position == "E4")
+	{
+		pages = 1
+		room_text[0] = "Map square E4"
+	}
+	else if (global.player_position == "E5")
+	{
+		pages = 1
+		room_text[0] = "Position E5"
+	}
+	else if (global.player_position == "E6")
+	{
+		pages = 1
+		room_text[0] = "Position E6"
+	}
+	else if (global.player_position == "E7")
+	{
+		pages = 1
+		room_text[0] = "Position E7"
+	}
+	else if (global.player_position == "E8")
+	{
+		pages = 1
+		room_text[0] = "Position E8"
+	}
+	else if (global.player_position == "F1")
+	{
+		pages = 1
+		room_text[0] = "Position F1"
+	}
+	else if (global.player_position == "F2")
+	{
+		pages = 1
+		room_text[0] = "Position F2"
+	}
+	else if (global.player_position == "G1")
+	{
+		pages = 1
+		room_text[0] = "Position G1"
+	}
+	else if (global.player_position == "G2")
+	{
+		pages = 1
+		room_text[0] = "Position G2"
+	}
+	else if (global.player_position == "H1")
+	{
+		pages = 1
+		room_text[0] = "Position H1"
+	}
+	else if (global.player_position == "I1")
+	{
+		pages = 1
+		room_text[0] = "Position I1"
+	}
+	else if (global.player_position == "J1")
+	{
+		pages = 1
+		room_text[0] = "Position J1\nThe End?"
+		global.player_position = "The End?"
 	}
 }
 text = room_text[0]
