@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Choose Your Own Survival",
-    "path":"Choose Your Own Survival.yyp",
+    "name":"DAP",
+    "path":"folders/Sprites/Characters/DAP.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
