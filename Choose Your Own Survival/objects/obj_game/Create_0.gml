@@ -1,3 +1,4 @@
 global.selection = ""
-global.player_position = ""
+global.direction_selection = ""
 global.time = 21.00
+global.item = ""
