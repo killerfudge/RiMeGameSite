@@ -12,6 +12,8 @@ else if (text == "Escape through the front window")
 	global.direction_selection = "Front side"
 	global.player_row = 1
 	global.player_column = 11
+	global.camp_row = 1
+	global.camp_column = 11
 	room_goto(1)
 }
 // Selection in the 'Crash' room at the start of the game which will set starting position
@@ -485,4 +487,8 @@ else if (text == "Don't leave area")
 {
 	global.selection = "Enter map square"
 	room_goto(1)
+}
+else if (text == "Go to camp")
+{
+	room_goto(2)
 }

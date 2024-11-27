@@ -1300,7 +1300,16 @@ if (index == pages)
 	// Options on what to do at current location
 	else
 	{
-		create_button(1, "Scavange for materials")
-		create_button(2, "Leave area")
+		if (global.camp_row == global.player_row and global.camp_column == global.player_column)
+		{
+			create_button(1, "Go to camp")
+			create_button(2, "Scavange for materials")
+			create_button(3, "Leave area")
+		}
+		else
+		{
+			create_button(1, "Scavange for materials")
+			create_button(2, "Leave area")
+		}
 	}
 }
