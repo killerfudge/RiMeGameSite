@@ -20,23 +20,64 @@ else if (text == "Escape through the front window")
 else if (text == "Escape through the back emergency door")
 {
 	global.selection = "Back Door"
+	global.player_position = "A10"
+	global.player_row = 1
+	global.player_column = 10
+	global.camp_row = 1
+	global.camp_column = 10
 	room_goto(1)
 }
 // This is currently here to skip what will be story stuff after escaping the bus
 else if (text == "Skip to move")
 {
 	global.selection = "Enter map square"
-	global.player_position = "A10"
-	global.player_row = 1
-	global.player_column = 10
 	room_goto(1)
 }
 // Look for material for crafting
 else if (text == "Scavange for materials")
 {
-	array_push(global.player_materials, "Stick")
+	var _found = irandom(10);
+	if (_found == 1)
+	{
+		if (struct_exists(global.player_materials, "sticks"))
+		{
+			global.player_materials.sticks += 1;
+		}
+		else
+		{
+			global.player_materials.sticks = 1;
+		}
+		global.item = "stick";
+	}
+	else if (_found == 2)
+	{
+		if (struct_exists(global.player_materials, "rocks"))
+		{
+			global.player_materials.rocks += 1;
+		}
+		else
+		{
+			global.player_materials.rocks = 1;
+		}
+		global.item = "rock";
+	}
+	else if (_found == 3)
+	{
+		if (struct_exists(global.player_materials, "vines"))
+		{
+			global.player_materials.vines += 1;
+		}
+		else
+		{
+			global.player_materials.vines = 1;
+		}
+		global.item = "vine";
+	}
+	else
+	{
+		global.item = "nothing";
+	}
 	global.selection = "Scavenged item"
-	global.item = "stick"
 	room_goto(1)
 }
 // Switch to menu for leaving a map square
@@ -490,5 +531,6 @@ else if (text == "Don't leave area")
 }
 else if (text == "Go to camp")
 {
+	global.selection = "camp";
 	room_goto(2)
 }

@@ -1,0 +1,20 @@
+{
+  "$GMPath":"",
+  "%Name":"dereks_path",
+  "closed":true,
+  "kind":0,
+  "name":"dereks_path",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":256.0,"y":256.0,},
+    {"speed":100.0,"x":256.0,"y":544.0,},
+    {"speed":100.0,"x":576.0,"y":544.0,},
+    {"speed":100.0,"x":576.0,"y":256.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"save_camp_locations",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"save_camp_locations",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_textbox_red",
-    "path":"sprites/spr_textbox_red/spr_textbox_red.yy",
+    "name":"spr_textbox_amelia",
+    "path":"sprites/spr_textbox_amelia/spr_textbox_amelia.yy",
   },
   "spriteMaskId":null,
   "visible":true,

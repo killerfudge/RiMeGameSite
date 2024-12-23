@@ -1,0 +1,20 @@
+{
+  "$GMPath":"",
+  "%Name":"jasons_path",
+  "closed":true,
+  "kind":0,
+  "name":"jasons_path",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":96.0,"y":640.0,},
+    {"speed":100.0,"x":96.0,"y":384.0,},
+    {"speed":100.0,"x":544.0,"y":384.0,},
+    {"speed":100.0,"x":544.0,"y":640.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

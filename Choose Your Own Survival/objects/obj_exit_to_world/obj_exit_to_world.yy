@@ -8,8 +8,8 @@
   "name":"obj_exit_to_world",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"camp objects",
+    "path":"folders/Objects/camp objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
