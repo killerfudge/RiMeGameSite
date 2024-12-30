@@ -15,9 +15,9 @@
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"buttons","folderPath":"folders/Objects/buttons.yy","name":"buttons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"camp objects","folderPath":"folders/Objects/camp objects.yy","name":"camp objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"characters","folderPath":"folders/Objects/characters.yy","name":"characters","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"buttons","folderPath":"folders/Objects/buttons.yy","name":"buttons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"textboxes","folderPath":"folders/Objects/textboxes.yy","name":"textboxes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -44,7 +44,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"Choose Your Own Survival",
   "resources":[
@@ -101,6 +101,7 @@
     {"id":{"name":"spr_background_temp","path":"sprites/spr_background_temp/spr_background_temp.yy",},},
     {"id":{"name":"spr_bus","path":"sprites/spr_bus/spr_bus.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
+    {"id":{"name":"spr_campfire_animated","path":"sprites/spr_campfire_animated/spr_campfire_animated.yy",},},
     {"id":{"name":"spr_campfire_lit","path":"sprites/spr_campfire_lit/spr_campfire_lit.yy",},},
     {"id":{"name":"spr_campire_unlit","path":"sprites/spr_campire_unlit/spr_campire_unlit.yy",},},
     {"id":{"name":"spr_DAP_profile","path":"sprites/spr_DAP_profile/spr_DAP_profile.yy",},},

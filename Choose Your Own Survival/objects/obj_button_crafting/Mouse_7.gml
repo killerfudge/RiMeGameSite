@@ -1,7 +1,7 @@
 if (text == "craft stone knife")
 {
 	global.player_materials.rocks -= 1;
-	if global.player_materials.rocks == 0)
+	if (global.player_materials.rocks == 0)
 	{
 		struct_remove(global.player_materials, "rocks");
 	}
@@ -12,7 +12,7 @@ if (text == "craft stone knife")
 if (text == "craft hammer")
 {
 	global.player_materials.rocks -= 1;
-	if global.player_materials.rocks == 0)
+	if (global.player_materials.rocks == 0)
 	{
 		struct_remove(global.player_materials, "rocks");
 	}

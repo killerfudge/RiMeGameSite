@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Scenery",
-    "path":"folders/Sprites/Scenery.yy",
+    "name":"Choose Your Own Survival",
+    "path":"Choose Your Own Survival.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
