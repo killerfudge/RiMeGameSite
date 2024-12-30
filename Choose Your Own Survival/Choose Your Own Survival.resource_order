@@ -108,6 +108,7 @@
     {"name":"spr_tent_2","order":1,"path":"sprites/spr_tent_2/spr_tent_2.yy",},
     {"name":"spr_tent_3","order":2,"path":"sprites/spr_tent_3/spr_tent_3.yy",},
     {"name":"spr_tent_4","order":3,"path":"sprites/spr_tent_4/spr_tent_4.yy",},
+    {"name":"spr_test_collision","order":7,"path":"sprites/spr_test_collision/spr_test_collision.yy",},
     {"name":"spr_textbox_amelia","order":1,"path":"sprites/spr_textbox_amelia/spr_textbox_amelia.yy",},
     {"name":"spr_textbox_crafting","order":6,"path":"sprites/spr_textbox_crafting/spr_textbox_crafting.yy",},
     {"name":"spr_textbox_derek","order":2,"path":"sprites/spr_textbox_derek/spr_textbox_derek.yy",},
