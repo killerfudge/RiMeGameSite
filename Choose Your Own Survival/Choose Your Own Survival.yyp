@@ -36,6 +36,7 @@
     {"$GMFolder":"","%Name":"JE","folderPath":"folders/Sprites/Characters/JE.yy","name":"JE","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"PRV","folderPath":"folders/Sprites/Characters/PRV.yy","name":"PRV","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"RF","folderPath":"folders/Sprites/Characters/RF.yy","name":"RF","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Backgrounds","folderPath":"folders/Sprites/Backgrounds.yy","name":"Backgrounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"textboxes","folderPath":"folders/Sprites/textboxes.yy","name":"textboxes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Tile Sets/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -44,7 +45,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Choose Your Own Survival",
   "resources":[

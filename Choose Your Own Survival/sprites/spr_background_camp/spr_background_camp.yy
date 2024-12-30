@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_background_camp",
   "bboxMode":0,
-  "bbox_bottom":852,
+  "bbox_bottom":919,
   "bbox_left":0,
-  "bbox_right":1279,
+  "bbox_right":1380,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":853,
+  "height":920,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"c8da0537-fb60-4ba1-b29b-3d562cb0b48f","blendMode":0,"displayName":"default","isLocked":false,"name":"c8da0537-fb60-4ba1-b29b-3d562cb0b48f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Choose Your Own Survival",
-    "path":"Choose Your Own Survival.yyp",
+    "name":"Backgrounds",
+    "path":"folders/Sprites/Backgrounds.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1280,
+  "width":1381,
 }
