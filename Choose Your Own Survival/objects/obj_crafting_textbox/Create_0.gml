@@ -16,6 +16,7 @@ if (struct_names_count(global.player_materials) > 0)
 		text += string(struct_get(global.player_materials, _material_names[i]));
 		text += " ";
 		text += _material_names[i];
+		text += " ";
 	}
 	
 	// set booleans to show what materials the player has so functions don't have to
