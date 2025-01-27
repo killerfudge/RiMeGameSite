@@ -75,6 +75,7 @@
     {"id":{"name":"obj_RF_chat","path":"objects/obj_RF_chat/obj_RF_chat.yy",},},
     {"id":{"name":"obj_rhonda_fowler","path":"objects/obj_rhonda_fowler/obj_rhonda_fowler.yy",},},
     {"id":{"name":"obj_stump_1","path":"objects/obj_stump_1/obj_stump_1.yy",},},
+    {"id":{"name":"obj_time_display","path":"objects/obj_time_display/obj_time_display.yy",},},
     {"id":{"name":"obj_tree_1","path":"objects/obj_tree_1/obj_tree_1.yy",},},
     {"id":{"name":"obj_world_textbox","path":"objects/obj_world_textbox/obj_world_textbox.yy",},},
     {"id":{"name":"amelias_path","path":"paths/amelias_path/amelias_path.yy",},},

@@ -1,0 +1,1 @@
+draw_text(5, 5, "Day " + string(global.time_days) + "  " + string_replace_all(string_format(global.time_hours, 2, 0) + ":" + string_format(global.time_minutes, 2, 0), " ", "0"));

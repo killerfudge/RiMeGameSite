@@ -1,4 +1,4 @@
-if (end)
+if (endTalk)
 {
 	global.resetter = 0;
 	global.dialog_response = "";

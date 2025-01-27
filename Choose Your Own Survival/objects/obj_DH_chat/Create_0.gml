@@ -1,11 +1,11 @@
 room_text = [];
 pages = 0;
-index = 1;
-end = false;
+index = 1
+endTalk = false;
 
 if (global.derek_spoken)
 {
-	end = true;
+	endTalk = true;
 	dialog = irandom(1);
 	if (dialog == 0)
 	{
@@ -31,6 +31,6 @@ else if (global.dialog_response == "craft")
 else if (global.dialog_response == "not a game")
 {
 	room_text[0] = "Obviously. I was just making conversation.";
-	end = true;
+	endTalk = true;
 }
 text = room_text[0]

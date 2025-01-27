@@ -7,16 +7,21 @@ function progress_time(_time, _increments)
 	if (_increments == "minutes")
 	{
 		global.time_minutes += _time;
-		if (global.time_minutes > 60)
+		if (global.time_minutes >= 60)
 		{
 			global.time_minutes -= 60;
 			global.time_hours += 1;
+			if (global.time_hours >= 24)
+			{
+				global.time_days += 1;
+				global.time_hours -= 24;
+			}
 		}
 	}
-	else if (_increment == "hours")
+	else if (_increments == "hours")
 	{
 		global.time_hours += _time;
-		if (global.time_hours > 24)
+		if (global.time_hours >= 24)
 		{
 			global.time_days += 1;
 			global.time_hours -= 24;

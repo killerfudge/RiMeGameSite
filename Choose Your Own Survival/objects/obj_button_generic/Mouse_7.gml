@@ -191,7 +191,7 @@ else if (text == "Go north")
 	}
 	global.player_position += string(global.player_column);
 	
-	progress_time(1, "hour");
+	progress_time(1, "hours");
 	room_goto(1);
 }
 // Selection for when moving west between sections on the map
@@ -303,7 +303,7 @@ else if (text == "Go west")
 	}
 	global.player_position += string(global.player_column);
 	
-	progress_time(1, "hour");
+	progress_time(1, "hours");
 	room_goto(1);
 }
 // Selection for when moving south between sections on the map
@@ -413,9 +413,9 @@ else if (text == "Go south")
 	{
 		global.player_position = "T";
 	}
-	global.player_position += string(global.player_column;
+	global.player_position += string(global.player_column);
 	
-	progress_time(1, "hour");
+	progress_time(1, "hours");
 	room_goto(1);
 }
 // Selection for when moving east between sections on the map
@@ -526,7 +526,7 @@ else if (text == "Go east")
 	}
 	global.player_position += string(global.player_column);
 	
-	progress_time(1, "hour");
+	progress_time(1, "hours");
 	room_goto(1);
 }
 // Selection to cancel movement between sections on the map

@@ -48,6 +48,7 @@ if (text == "craft bow")
 	{
 		struct_remove(global.player_materials, "vines");
 	}
+	global.player_weapons.bow = {};
 	global.player_weapons.bow.arrows = 0;
 	progress_time(20, "minutes");
 	

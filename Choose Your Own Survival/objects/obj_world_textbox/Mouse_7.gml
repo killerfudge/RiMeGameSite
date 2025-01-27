@@ -9,8 +9,8 @@ if (index == pages)
 	// The first choice in the game
 	if (global.selection == "New Game")
 	{
-		create_button(1, "Escape through the front window")
-		create_button(2, "Escape through the back emergency door")
+		create_button(1, "Escape through the front window");
+		create_button(2, "Escape through the back emergency door");
 	}
 	// Skipping what will be story after escaping the back of the bus
 	if (global.selection == "Back Door")

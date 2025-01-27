@@ -52,6 +52,7 @@
     {"name":"obj_RF_chat","order":5,"path":"objects/obj_RF_chat/obj_RF_chat.yy",},
     {"name":"obj_rhonda_fowler","order":5,"path":"objects/obj_rhonda_fowler/obj_rhonda_fowler.yy",},
     {"name":"obj_stump_1","order":6,"path":"objects/obj_stump_1/obj_stump_1.yy",},
+    {"name":"obj_time_display","order":9,"path":"objects/obj_time_display/obj_time_display.yy",},
     {"name":"obj_tree_1","order":7,"path":"objects/obj_tree_1/obj_tree_1.yy",},
     {"name":"dereks_path","order":1,"path":"paths/dereks_path/dereks_path.yy",},
     {"name":"evelyns_path","order":2,"path":"paths/evelyns_path/evelyns_path.yy",},
