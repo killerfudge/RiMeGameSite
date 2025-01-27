@@ -31,7 +31,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_campire_unlit",
     "path":"sprites/spr_campire_unlit/spr_campire_unlit.yy",

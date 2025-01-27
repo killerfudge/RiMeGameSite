@@ -1,8 +1,11 @@
 // Decision making globals
 global.selection = "";
 global.direction_selection = "";
-global.time = 21.00;
+global.time_days = 0;
+global.time_hours = 21;
+global.time_minutes = 0;
 global.item = "";
+global.dialog_response = "";
 
 // Camp globals
 global.camp_row = 0;

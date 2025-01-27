@@ -6,6 +6,9 @@ if (text == "craft stone knife")
 		struct_remove(global.player_materials, "rocks");
 	}
 	global.player_tools.knife = true;
+	progress_time(10, "minutes");
+	
+	// Return to crafting selection
 	global.resetter = 8;
 	room_goto(2);
 }
@@ -27,6 +30,9 @@ if (text == "craft hammer")
 		struct_remove(global.player_materials, "vines");
 	}
 	global.player_tools.hammer = true;
+	progress_time(20, "minutes");
+	
+	// return to crafting selection
 	global.resetter = 8;
 	room_goto(2);
 }
@@ -43,6 +49,9 @@ if (text == "craft bow")
 		struct_remove(global.player_materials, "vines");
 	}
 	global.player_weapons.bow.arrows = 0;
+	progress_time(20, "minutes");
+	
+	// return to crafting selection
 	global.resetter = 8;
 	room_goto(2);
 }
@@ -54,6 +63,9 @@ if (text == "craft arrow")
 		struct_remove(global.player_materials, "sticks");
 	}
 	global.player_weapons.bow.arrows += 1;
+	progress_time(10, "minutes");
+	
+	// return to crafting selection
 	global.resetter = 8;
 	room_goto(2);
 }

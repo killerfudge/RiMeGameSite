@@ -21,3 +21,7 @@ if(global.camp_from_chat)
 {
 	path_position = global.derek_position;
 }
+else
+{
+	global.derek_spoken = false;
+}

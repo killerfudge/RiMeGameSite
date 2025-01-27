@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"progress_time",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"progress_time",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
