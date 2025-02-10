@@ -74,6 +74,7 @@
     {"name":"spr_AB_walkingforward","order":1,"path":"sprites/spr_AB_walkingforward/spr_AB_walkingforward.yy",},
     {"name":"spr_AB_walkingleft","order":2,"path":"sprites/spr_AB_walkingleft/spr_AB_walkingleft.yy",},
     {"name":"spr_AB_walkingright","order":3,"path":"sprites/spr_AB_walkingright/spr_AB_walkingright.yy",},
+    {"name":"spr_background_begin1","order":2,"path":"sprites/spr_background_begin1/spr_background_begin1.yy",},
     {"name":"spr_background_camp","order":1,"path":"sprites/spr_background_camp/spr_background_camp.yy",},
     {"name":"spr_campfire_lit","order":4,"path":"sprites/spr_campfire_lit/spr_campfire_lit.yy",},
     {"name":"spr_campfire_moving","order":12,"path":"sprites/spr_campfire_moving/spr_campfire_moving.yy",},

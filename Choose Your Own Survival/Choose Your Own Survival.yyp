@@ -45,7 +45,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"Choose Your Own Survival",
   "resources":[
@@ -101,6 +101,7 @@
     {"id":{"name":"spr_AB_walkingforward","path":"sprites/spr_AB_walkingforward/spr_AB_walkingforward.yy",},},
     {"id":{"name":"spr_AB_walkingleft","path":"sprites/spr_AB_walkingleft/spr_AB_walkingleft.yy",},},
     {"id":{"name":"spr_AB_walkingright","path":"sprites/spr_AB_walkingright/spr_AB_walkingright.yy",},},
+    {"id":{"name":"spr_background_begin1","path":"sprites/spr_background_begin1/spr_background_begin1.yy",},},
     {"id":{"name":"spr_background_camp","path":"sprites/spr_background_camp/spr_background_camp.yy",},},
     {"id":{"name":"spr_background_temp","path":"sprites/spr_background_temp/spr_background_temp.yy",},},
     {"id":{"name":"spr_bus","path":"sprites/spr_bus/spr_bus.yy",},},
